@@ -1,0 +1,27 @@
+.notification-bar {
+    top:-10px;
+    left:-320px;
+    position: relative;
+    border: 1px solid #7f9a40;
+    background: #9fc150;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom-width: 2.5px !important;
+    font-family: monospace;
+    text-align: center;
+    height: 700px;
+    width: 300px;;
+}
+
+.notification-bar.enabled {
+    left:-20px;
+}
+
+.animatedCSS {
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+

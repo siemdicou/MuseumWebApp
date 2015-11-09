@@ -8,7 +8,7 @@ window.addEventListener("load", function(){
 
     /** we checken of je op de pagina klikt */
     document.addEventListener("click", function(){
-        notificationBar.show(200);
+        notificationBar.show();
     });
 
 });

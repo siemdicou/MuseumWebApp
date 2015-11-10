@@ -20,7 +20,7 @@ NotificationBar.prototype = {
      * Trigger de notification bar om een bericht te laten zien
      * @param message (String): de tekst die moet worden weergegeven
      */
-    show: function(message){
+    show: function(){
         /** als er al een bericht wordt weergegeven, dan resetten we de timeout */
         if(this.timeoutID) {
             clearTimeout(this.timeoutID);

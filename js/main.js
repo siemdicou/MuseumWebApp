@@ -11,4 +11,11 @@ window.addEventListener("load", function(){
         notificationBar.show();
     });
 
+
+    document.addEventListener("click", function(){
+        notificationBar.delete();
+    });
+
+
+
 });

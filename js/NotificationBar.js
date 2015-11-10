@@ -42,7 +42,7 @@ NotificationBar.prototype = {
     show: function(){
         this.notificationBar.classList.add("enabled");
     },
-
+    
     /**
      * Functie om de balk weer weg te laten gaan
      */

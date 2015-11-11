@@ -7,10 +7,22 @@ window.addEventListener("load", function(){
     // notificationBar.showMessage("hoi");
     console.log(notificationBar);
     /** we checken of je op de pagina klikt */
-    document.addEventListener("click", function(){
-        notificationBar.show();
-    });
+    // document.addEventListener("click", function(){
+    //     notificationBar.show();
+    // });
 
+     document.getElementById("show").onclick = function(){
+             notificationBar.show();
+       
+    };
+ 
+
+    document.getElementById("remove").onclick = function(){
+             notificationBar.hide();
+    };
+ 
+       
+    
 
     // document.addEventListener("click", function(){
     //     notificationBar.hide(3000);

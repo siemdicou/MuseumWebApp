@@ -1,12 +1,13 @@
 html body{
     height: 100%;
     width: 100%;
+    background-image: url(http://wallpoper.com/images/00/31/33/51/black-background_00313351.jpg);
 
 }
 
 .notification-bar {
     top:-10px;
-    left:-320px;
+    left:-83%;
     position: relative;
     border: 1px solid #7f9a40;
     background: #9fc150;
@@ -16,7 +17,7 @@ html body{
     font-family: monospace;
     text-align: center;
     height: 100%;
-    width: 300px;;
+    width: 80%;
 }
 
 .notification-bar.enabled {
@@ -29,5 +30,11 @@ html body{
     -ms-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+}
+#show{
+    float: left;
+}
+#remove{
+    float: right;
 }
 

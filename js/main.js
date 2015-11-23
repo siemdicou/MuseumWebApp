@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
 
     /** we laten een begin notificatie zien */
     // notificationBar.showMessage("hoi");
-    console.log(notificationBar);
+    //console.log(notificationBar);
     /** we checken of je op de pagina klikt */
     // document.addEventListener("click", function(){
     //     notificationBar.show();

@@ -4,6 +4,10 @@ html body{
     background-color: #262626;
 
 }
+#show{
+    padding-left: 20px;
+    padding-top: 20px;
+}
 #remove{
     padding-right: 10px;
     padding-top: 10px;

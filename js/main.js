@@ -20,8 +20,17 @@ window.addEventListener("load", function(){
     document.getElementById("remove").onclick = function(){
              notificationBar.hide();
     };
- 
-       
+ $('#reader').html5_qrcode(function(data){
+         // do something when code is read
+         console.log(data)
+
+    },
+    function(error){
+        //show read errors 
+    }, function(videoError){
+        //the video stream could be opened
+    }
+);       
     
 
     // document.addEventListener("click", function(){

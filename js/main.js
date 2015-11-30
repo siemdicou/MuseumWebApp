@@ -2,6 +2,7 @@ window.addEventListener("load", function(){
 
     /** we maken de notificationBar aan, gekoppeld aan het HTML element */
     var notificationBar = new NotificationBar(".notification-bar");
+    // var qrScan = new QrScan("#reader");
 
     /** we laten een begin notificatie zien */
     // notificationBar.showMessage("hoi");
@@ -15,6 +16,10 @@ window.addEventListener("load", function(){
              notificationBar.show();
        
     };
+    // document.getElementById("scan").onclick = function(){
+    //          qrScan.show();
+       
+    // };
  
 
     document.getElementById("remove").onclick = function(){

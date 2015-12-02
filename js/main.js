@@ -37,10 +37,10 @@ window.addEventListener("load", function(){
     }
 );       
     
-    paintings: [
-    {title: "1", content: "baas nummer 1"   url:"" },
-    {title: "2", content: "baas nummer 2"   url:"" },
-    {title: "3", content: "baas nummer 3"   url:"" }
-  ]
+  //   paintings: [
+  //   {title: "1", content: "baas nummer 1"   url:"" },
+  //   {title: "2", content: "baas nummer 2"   url:"" },
+  //   {title: "3", content: "baas nummer 3"   url:"" }
+  // ]
 
 });

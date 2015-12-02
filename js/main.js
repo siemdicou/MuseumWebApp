@@ -37,11 +37,10 @@ window.addEventListener("load", function(){
     }
 );       
     
-
-    // document.addEventListener("click", function(){
-    //     notificationBar.hide(3000);
-    // });
-
-
+    paintings: [
+    {title: "1", content: "baas nummer 1"   url:"" },
+    {title: "2", content: "baas nummer 2"   url:"" },
+    {title: "3", content: "baas nummer 3"   url:"" }
+  ]
 
 });

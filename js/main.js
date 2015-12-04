@@ -41,8 +41,7 @@ window.addEventListener("load", function(){
               ];
                 // Pass our data to the template
   var theCompiledHtml = theTemplate(paintings);
-  var theCompiledHtml2 = theTemplate(student2);
-  var theCompiledHtml3 = theTemplate(student3);
+
 
   // Add the compiled html to the page
   $('.content-placeholder').html(theCompiledHtml);

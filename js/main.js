@@ -2,6 +2,7 @@ window.addEventListener("load", function(){
 
     /** we maken de notificationBar aan, gekoppeld aan het HTML element */
     var notificationBar = new NotificationBar(".notification-bar");
+    var theTemplateScript = $("#block-expressions-template").html();
     // var reader = new reader("#reader");
     // var qrScan = new QrScan("#reader");
 
@@ -14,7 +15,7 @@ window.addEventListener("load", function(){
     // });
 
      document.getElementById("show").onclick = function(){
-             notificationBar.show();
+             notificationBar.show();  
        
     };
     // document.getElementById("scan").onclick = function(){
@@ -32,26 +33,33 @@ window.addEventListener("load", function(){
     };
  $('#reader').html5_qrcode(function(data){
          // do something when code is read
-          var theTemplate = Handlebars.compile(theTemplateScript);
+          
          console.log(data)
-         var paintings=[
-                {title: "1", content: "baas nummer 1" ,  img:"" },
-                {title: "2", content: "baas nummer 2" ,  img:"" },
-                {title: "3", content: "baas nummer 3" ,  img:"" }
-              ];
-                // Pass our data to the template
-  var theCompiledHtml = theTemplate(paintings);
+
 
 
   // Add the compiled html to the page
-  $('.content-placeholder').html(theCompiledHtml);
+ 
             },
     function(error){
         //show read errors 
     }, function(videoError){
         //the video stream could be opened
     }
-);       
+);  
+        var theTemplate = Handlebars.compile(theTemplateScript);
+         var paintings=
+                {
+                  title: "1", 
+                  content: "baas nummer 1" , 
+                   img:"http://www.engraversnetwork.com/files/placeholder.jpg" 
+                }
+              //   {title: "2", content: "baas nummer 2" ,  img:"" },
+              //   {title: "3", content: "baas nummer 3" ,  img:"" }
+              // ];
+                // Pass our data to the template
+  var theCompiledHtml = theTemplate(paintings);     
+   $('.content-placeholder').html(theCompiledHtml);
   
 
 });

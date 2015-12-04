@@ -50,13 +50,10 @@
 
 </script>
 
+<!-- <h1 id="testhoi">hoi</h1> -->
 
-<?php
+<div class="content-placeholder"></div>
 
-for($i = 0; $i<=10; $i++){
-    echo'<div class="content-placeholder'.$i.'"></div>';
-}
-?>
 
 
 

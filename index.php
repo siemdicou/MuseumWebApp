@@ -19,21 +19,21 @@
 
 
 
-<img id="show" src="https://www.mileiq.com/images/homepage/hamburger.png" width="10%">
-
-<div class="notification-bar animatedCSS">
+<img id="show" src="https://www.mileiq.com/images/homepage/hamburger.png" width="0.01%">
+<!-- 
+<div class="notification-bar animatedCSS"> -->
     <div id="navTop">
-        <img id="remove" src="img/delete30.png" width="10%">
+        <img id="remove" src="img/delete30.png" width="0.01%" margin="600px">
     </div>
-    <div id="navMenu">
+    <!-- <div id="navMenu">
         <p>Home</p>
         <p>About</p>
         <p>Help</p>
         <p>Credits</p>
     </div>
-</div>
+</div> -->
 <div id="container">
-    <p id="scan">SCAN</p>
+    <p id="scan">SCAN QR CODE</p>
 </div>
 <div id="reader">
 </div>

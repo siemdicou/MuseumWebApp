@@ -3,32 +3,6 @@ html body{
     font-family: sans-serif;
 
 }
-#show{
-    padding-left: 10px;
-    padding-top: 10px;
-}
-#remove{
-    padding-right: 10px;
-    padding-top: 10px;
-}
-#navTop{
-    width: 100%;
-}
-#navMenu{
-    padding-top: 100px;
-    width: 100%;
-}
-#navMenu p{
-    font-size: 14px;
-    text-align: sans-serif;
-    padding: 25px;
-    background-color: #383838;
-}
-#navMenu p:hover{
-    text-align: sans-serif;
-    padding: 25px;
-    background-color: #262626;
-}
 .notification-bar {
     margin-left: 20px;
     top:0;
@@ -57,12 +31,7 @@ html body{
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
-#show{
-    float: left;
-}
-#remove{
-    float: right;
-}
+
 #container{
     padding-top: 150px;
 }
@@ -87,9 +56,6 @@ html body{
 }
 
 
-.testhoi {
-    left:-20px;
-}
 
 
 #kleurbitch{

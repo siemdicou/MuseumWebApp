@@ -41,7 +41,7 @@ window.addEventListener("load", function(){
          var theTemplate = Handlebars.compile(theTemplateScript);
          var paintings=
          {
-             title: "Oboma-Rembrandt",
+             title: "Oboma met de Nachtwacht (Rembrandt)",
              img:"img/obama-rembrandt.jpg",
              content: "President Obama is vanochtend even voor negen uur geland op Schiphol. Vanmiddag is hij bij de nucleaire top in Den Haag, maar de president ging eerst nog met zijn helikopter Marine One naar het Museumplein voor een bezoek aan het Rijksmuseum. Na een rondleiding gaven premier Rutte en president Obama een korte toespraak."
 

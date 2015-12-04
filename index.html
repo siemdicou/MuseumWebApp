@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-
   <title>Web-app</title>
-
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/default.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
   <script src="js/handlebars-v4.0.5.js"></script>
-    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="lib/html5-qrcode.min.js"></script>
-    <script src="js/NotificationBar.js"></script>
-    <script src="js/main.js"></script>
 </head>
 
 <body>  
@@ -35,12 +28,11 @@
 <div id="reader">
  </div>
 
-
-<script id="block-expressions-template" type="text/x-handlebars-template">
+ <script id="block-expressions-template" type="text/x-handlebars-template">
 
     <p> The <b> {{#uppercase}} konami {{/uppercase}} </b> Code is a cheat code that appears in many video games.</p>
 
-    <img src="{{image}}">
+    <img src="{{img}}">
     <p>During the title screen before the game demo begins, the player could press the following sequence of buttons on the game controller to enable the cheat:</p>
 
     <p>{{#uppercase}}{{code}}{{/uppercase}}</p>
@@ -52,15 +44,15 @@
 
 </script>
 
+ <div class="content-placeholder"></div>
 
-<?php
+ <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+ <script src="lib/html5-qrcode.min.js"></script>
+<script src="js/handlebars-v4.0.5.js"></script>
+<script src="js/NotificationBar.js"></script>
 
-for($i = 0; $i<=10; $i++){
-    echo'<div class="content-placeholder'.$i.'"></div>';
-}
-?>
-
-
+<script src="js/main.js"></script>
 
 
 </body>

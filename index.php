@@ -10,10 +10,15 @@
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="lib/html5-qrcode.min.js"></script>
     <script src="js/NotificationBar.js"></script>
+    <script src="js/kleurbitch.js"></script>
     <script src="js/main.js"></script>
+
 </head>
 
 <body>
+
+
+
 <img id="show" src="https://www.mileiq.com/images/homepage/hamburger.png" width="10%">
 
 <div class="notification-bar animatedCSS">
@@ -34,28 +39,27 @@
 </div>
 
 
+
+
+<!-- <h1 id="testhoi">hoi</h1> -->
+
+
 <script id="block-expressions-template" type="text/x-handlebars-template">
 
-    <p> The <b> {{#uppercase}} konami {{/uppercase}} </b> Code is a cheat code that appears in many video games.</p>
 
-    <img src="{{img}}">
-    <p>During the title screen before the game demo begins, the player could press the following sequence of buttons on the game controller to enable the cheat:</p>
+    <div id="kleurbitch">
+        <h1>{{title}}</h1>
 
-    <p>{{#uppercase}}{{code}}{{/uppercase}}</p>
+        <img src="{{img}}">
 
 
-    <p>The code is also present as an Easter egg on a number of websites.</p>
-
+        <p>{{content}}</p>
+    </div>
 
 
 </script>
 
-<!-- <h1 id="testhoi">hoi</h1> -->
-
 <div class="content-placeholder"></div>
-
-
-
 
 
 </body>

@@ -85,23 +85,37 @@ html body{
     width:100%;
     height:400px
 }
-.testhoi {
-    margin-left: 20px;
-    top:0;
-    left:-88%;
-    position: relative;
-    background: #383838;
-    border-radius: 5px;
-    padding: 5px;
-    border-bottom-width: 2.5px !important;
-    font-family: monospace;
-    text-align: center;
-    height: 100%;
-    width: 80%;
-    color: white;
-    position: absolute;
-}
+
 
 .testhoi {
     left:-20px;
 }
+
+
+#kleurbitch{
+
+
+    text-align: center;
+    color: white;
+    background-color: #262626;
+}
+#kleurbitch.enabled{
+
+    margin-top:1px;
+    background-color: #ffff00;
+
+}
+#kleurbitch p{
+    text-align: center;
+    font-size: 25px;
+    width: 70%;
+    margin-left:15%;
+}
+#kleurbitch img{
+
+    width:500px;
+    height:400px;
+}
+
+
+

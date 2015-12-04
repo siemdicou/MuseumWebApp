@@ -35,7 +35,16 @@ window.addEventListener("load", function(){
          // do something when code is read
           
          console.log(data)
-
+                 var theTemplate = Handlebars.compile(theTemplateScript);
+         var paintings=
+                {
+                  title: "1", 
+                  content: "baas nummer 1" , 
+                   img:"http://www.engraversnetwork.com/files/placeholder.jpg" 
+                };
+                  var theCompiledHtml = theTemplate(paintings);     
+   $('.content-placeholder').html(theCompiledHtml);
+  
 
 
   // Add the compiled html to the page
@@ -47,19 +56,11 @@ window.addEventListener("load", function(){
         //the video stream could be opened
     }
 );  
-        var theTemplate = Handlebars.compile(theTemplateScript);
-         var paintings=
-                {
-                  title: "1", 
-                  content: "baas nummer 1" , 
-                   img:"http://www.engraversnetwork.com/files/placeholder.jpg" 
-                }
+
               //   {title: "2", content: "baas nummer 2" ,  img:"" },
               //   {title: "3", content: "baas nummer 3" ,  img:"" }
               // ];
                 // Pass our data to the template
-  var theCompiledHtml = theTemplate(paintings);     
-   $('.content-placeholder').html(theCompiledHtml);
-  
+
 
 });

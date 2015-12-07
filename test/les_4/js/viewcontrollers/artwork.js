@@ -1,13 +1,4 @@
-function ArtWork(templateID, containerID){
 
-    
-
-    
-
-    // We slaan een referentie op naar de <DIV> waar we de kunstwerken in mogen laten zien
-    this.container = document.querySelector(containerID);
-
-}
 
 /**
  * We stellen het prototype object in met de functies die van buitenaf gebruikt moeten kunnen worden
